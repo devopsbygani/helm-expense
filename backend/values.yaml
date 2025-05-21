@@ -1,0 +1,5 @@
+ConfigMap:
+  host: mysql
+
+Service:
+  port: 8080
