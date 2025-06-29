@@ -4,7 +4,7 @@ metadata:
   name: backend
   namespace: expense
 data:
-  DB_HOST: {{ .Values.ConfigMap.host }}  # pleace holder
+  DB_HOST: {{ .Values.ConfigMap.host }}  # place holder
 ---
 apiVersion: apps/v1
 kind: Deployment
